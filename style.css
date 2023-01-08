@@ -65,9 +65,23 @@ header {
 
 
 .github {
-  background-color: grey;
+  background-color: black;
   margin-top: 15px;
 }
+
+.gh {
+  text-decoration: none;
+  color:white;
+}
+
+/* .gh:hover, .gh:visited, .gh:link, .github:active
+{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    
+} */
+
 
 .twitter {
   background-color: #1da1f2;
