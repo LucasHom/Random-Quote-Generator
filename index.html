@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--Declaring page as HTML page-->
+<html>
+
+<!--Stuff in the head you cant actually see in the page; meta information-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="app">
+    <header>Random Donald Dump Quotes</header>
+    <section class="quotes">
+      <div class="quote-text" id="js-quote-text"></div>
+    </section>
+    <div class="spinner hidden" id="js-spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+    <section class="controls">
+      
+      <button type="button" id="js-new-quote" class="new-quote button">
+        Generate a new quote
+      </button>
+      
+      <a class="twitter button" id="js-tweet" target="_blank" rel="noreferrer noopener">Tweet it!</a>
+
+      <button type="button" class="github button"><a  href="https://github.com/LucasHom">Check out my Github Page!</a></button>
+    </section>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+
+</body>
+
+</html>
